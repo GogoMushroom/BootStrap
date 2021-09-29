@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" ,content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>sign</title>
+  <link rel="stylesheet" href="bootstrap.min.css">
+  <link rel="stylesheet" href="theme_1632474732444.css">
+  <link rel="stylesheet" href="project-style.css">
+  <script src="bootstrap.min.js"></script>
+  <script src="jquery-3.6.0.min.js"></script>
+  <script src="https://kit.fontawesome.com/84aa3774b7.js" crossorigin="anonymous"></script>
+  <link rel=”stylesheet” href=”http://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css“>
+  <style>
+
+  </style>
+</head>
+
+<body class="color" style="padding : 50px; ">
+  <form class="box" style="padding : 50px; margin-left : auto ; margin-right: auto;">
+    <h1 style="padding : 30px; text-align: center;">
+      <border>회원가입</border>
+    </h1>
+    <div class="form-row">
+      <div class="form-group ">
+        <label for="inputid">아이디</label>
+        <input type="email" class="form-control" id="inputid">
+      </div>
+      <div class="form-group ">
+        <label for="inputname">별명</label>
+        <input type="text" class="form-control" id="inputname">
+      </div>
+      <div class="form-group ">
+        <label for="inputPassword">비밀번호</label>
+        <input type="password" class="form-control" id="inputPassword">
+      </div>
+
+    </div>
+    <div class="form-group ">
+      <label for="inputnum">휴대폰번호</label>
+      <input type="text" class="form-control" id="inputnum">
+    </div>
+    <div class="form-group ">
+      <label for="inputemail">메일주소</label>
+      <input type="text" class="form-control" id="inputemail">
+    </div>
+    <!-- <div class="form-row">
+          <div class="form-group col-md-6">
+            <label for="inputCity">City</label>
+            <input type="text" class="form-control" id="inputCity">
+          </div>
+          <div class="form-group col-md-4">
+            <label for="inputState">State</label>
+            <select id="inputState" class="form-control">
+              <option selected>Choose...</option>
+              <option>...</option>
+            </select>
+          </div>
+          <div class="form-group col-md-2">
+            <label for="inputZip">Zip</label>
+            <input type="text" class="form-control" id="inputZip">
+          </div> -->
+    </div>
+    <div class="form-group">
+      <div class="form-check">
+        <input class="form-check-input" type="checkbox" id="gridCheck">
+        <label class="form-check-label" for="gridCheck">
+          개인정보 이용 동의
+        </label>
+      </div>
+    </div>
+   
+    <a class="btn btn-success btn-lg" href="#" role="button" onclick="SearchPage()" style="font-size:30px;">로그인</a>
+    <a class="btn btn-secondary btn-lg" href="#" role="button" onclick="main()" style="font-size:30px;">취소하기</a>
+    <!-- <button type="submit" class="btn btn-secondary" style="" onclick="main()">cancle</button> -->
+  </form>
+
+</body>
+
+<script>
+  function main() {
+    location.href = "main.html"
+  }
+
+  function sign() {
+    location.href = "sign.html";
+
+  }
+  function login() {
+    location.href = "sign.html";
+
+  }
+
+  function SearchPage() {
+    location.href = "SearchPage.html";
+  }
+</script>
+
+</html>

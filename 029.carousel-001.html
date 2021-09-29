@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>캐러셀</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/jquery-3.6.0.min.js"></script>
+    <style>
+        img{
+            width: 100%;
+            max-width : 1400%;
+        }
+        .top-slide{
+            margin: 0 auto;
+            width : 920px;
+        }
+    </style>
+</head>
+<body>
+    <div class="top-slide">
+        <!-- 케러셀 영역 설정  -->
+        <div class="carousel slide" id="jejuphoto" data-bs-ride="carousel">
+            <div class="carousle-indicators">
+                <button type="button" data-bs-target="#jejuphoto"
+                data-bs-slide-to="0" class="active" area-current="true"></button>
+                <button type="button" data-bs-target="#jejuphoto"data-bs-slide-to="1"></button>
+                <button type="button" data-bs-target="#jejuphoto"data-bs-slide-to="2"></button>
+            </div>
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="images/jeju1.JPG" alt="">
+                    <div class="carousel-caption">
+                        <h4>서귀포 새연교</h4>
+                        <p>제주의 봄은 하늘에도, 바다에도, 심지어 바람끝에도 묻어난다</p>
+                    </div>
+                </div>
+                <div class="carousel-item active">
+                    <img src="images/jeju2.JPG" alt="">
+                    <div class="carousel-caption">
+                        <h4>협제 해수욕장</h4>
+                        <p>제주의 봄은 하늘에도, 바다에도, 심지어 바람끝에도 묻어난다</p>
+                    </div>
+                </div>
+                <div class="carousel-item active">
+                    <img src="images/jeju3.JPG" alt="">
+                    <div class="carousel-caption">
+                        <h4>산굼부리 억세밭</h4>
+                        <p>제주의 봄은 하늘에도, 바다에도, 심지어 바람끝에도 묻어난다</p>
+                    </div>
+                </div>
+            </div>
+            <a href="#jejuphoto" class="carousel-control-prev" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon"></span>
+            </a>
+            <a href="#jejuphoto" class="carousel-control-next" data-bs-slide="prev">
+                <span class="carousel-control-next-icon"></span>
+            </a>
+        </div>
+    </div>
+</body>
+</html>

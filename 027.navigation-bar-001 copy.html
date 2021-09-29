@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>수평 네비게이션</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/jquery-3.6.0.min.js"></script>
+    <style>
+        .mymenu{
+            width: 80%;
+            margin: 30px auto;
+        }
+    </style>
+</head>
+<body>
+   <div class="mymenu">
+   <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <a href="http://www.naver.com" class="navbar-brand">네이버 </a>
+    <div class="collapse navbar-collapse">
+        <ul class="navbar-nav me-auto">
+            <li class="nav-item">
+                <a href="#" class="nav-link">공지사항</a>
+            </li>
+            <li class="nav-item dropdown">
+                <a href="#" class="nav-link dropdown-toggle" data-ds-toggle="dropdown">
+                    <span>사서</span>
+                </a>
+                <ul class="dropdown-menu">
+                    <li><a href="#" class="dropdown-item">대학</a></li>
+                    <li><a href="#" class="dropdown-item">논어</a></li>
+                    <li><a href="#" class="dropdown-item">맹자</a></li>
+                    <li><a href="#" class="dropdown-item">중용</a></li>
+                </ul>
+            </li>
+            <li class="nav-item"><a href="#" class="nav-link">게시판</a></li>
+            <li class="nav-item"><a href="#" class="nav-link">자료실</a></li>
+        </ul>
+        <ul class="navbar-nav">
+            <li><a href="#">로그인</a></li>
+        </ul>
+    </div>
+
+   </nav>
+</div>
+</body>
+</html>

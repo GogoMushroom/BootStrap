@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" ,content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>main</title>
+<link rel="stylesheet" href="bootstrap.min.css">
+<link rel="stylesheet" href="theme_1632474732444.css">
+<link rel="stylesheet" href="project-style.css">
+<script src="bootstrap.min.js"></script>
+<script src="jquery-3.6.0.min.js"></script>
+<link rel=”stylesheet” href=”http://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css“>
+<style>
+
+</style>
+</head>
+<body>
+    <div class="header">
+        <nav class="navbar navbar-light fixed-top bg-primary">
+            <a class="navbar-brand" href="#" >
+                <img alt="Brand" src="images/logo-mini-long.png" width="420" height="70">
+            </a>
+            <a class="btn btn-primary btn-lg" href="#" role="button" 
+            onclick="login()"style="font-size:20px;">Login</a>
+                 
+            
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" 
+            aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarCollapse">
+                <ul class="navbar-nav">
+                    <li class="nav-item active">
+                        <a href="#" class="nav-link"> <strong>My page</strong> </a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#" class="nav-link" onclick="SearchPage()"><strong>Search</strong> </a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#" class="nav-link"><strong>My page</strong> </a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#" class="nav-link"><strong>Log out</strong> </a>
+                    </li>
+                    <!-- <li class="nav-item">
+                        <form action="" class="rows-cols-lg-auto">
+                            <!--form-control : 폼 input박스 스타일 적용-->
+                            <!-- <input type="text" class="form-control" placeholder="맛집을 찾아보세요">
+                        </form>
+                    </li> --> 
+                </ul>
+            </div>
+        </nav>
+    </div>
+
+
+   <!-- 점보트론  -->
+    <div class="jumbotron whitecircle pad ">
+        <h1 class="display-4">Merchan Diner!</h1>
+        <p class="lead">물건은 보고, 따지고, 열심히 고르면서 왜 식당은 그렇게 찾지 않으시나요?</p>
+        <hr class="my-4">
+        <p>모든 사람의 입맛이 아닌 당신의 입맛에 좀더 맞는 맛집지도 <br>지금 만들어봐요.</p>
+        <a class="btn btn-success btn-lg" href="#" role="button" onclick="sign()">시작하기</a>
+      </div>
+
+      <div class="search pad_top col-3 ">
+        <form action="" class="rows-cols-lg-auto">
+            <!--form-control : 폼 input박스 스타일 적용-->
+            
+            <!-- 검색창... 노답쓰...
+             -->
+            <div>  
+            <input type="text" class="form-control rows-cols-auto" placeholder="맛집을 찾아보세요">
+        </div>
+        </form>
+      </div>
+
+
+      <!--푸터-->
+    <footer class="footer footer_p">
+        <p><border>개인정보 처리 방침</border></p>
+        <p>Copyright(C) Lorem ipsum dolor sit, <br>amet consectetur adipisicing elit. Aliquid vitae excepturi </p>
+    </footer>
+</body>
+
+
+
+
+
+
+<script>
+    function main() {
+      location.href = "main.html"
+    }
+  
+    function sign() {
+      location.href = "sign.html";
+  
+    }
+    function login() {
+      location.href = "sign.html";
+  
+    }
+  
+    function SearchPage() {
+      location.href = "SearchPage.html";
+    }
+  </script>
+  
+
+
+</html>
